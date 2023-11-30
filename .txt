@@ -1,0 +1,4 @@
+1. Fii atent cu sql injectii
+2. Fii atent cu introducere in forme a scripturilor si htmlurilor (foloseste trim() si strip_tags());
+3. Ai grija sa nu dai access direct din browser la fileurile php doar la adrese
+4. Folosesti namespace ca sa grupezi filurile intro anumitea categorie. Apoi folosesti use cu indicarea directoriei ca sa foloseasca filurile de unde trebuie

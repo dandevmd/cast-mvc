@@ -1,0 +1,26 @@
+{
+  "name": "incognito/demo",
+  "authors": [
+    {
+      "name": "dandevmd",
+      "email": "danmunteanu420@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^10.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core",
+      "Http\\": "Http"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.8"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
